@@ -14,3 +14,7 @@ pip install -e .[all]
 ```
 python train_capacitron_t2.py
 ```
+
+### You can find more useful template inside recipes/, or refer to the original repo by CoquiAI
+### More dataset formatter can be found in Cantonese-Coqui-TTS/TTS/tts/datasets/formatters.py 
+### You may also define your own dataset formatter according to https://tts.readthedocs.io/en/latest/formatting_your_dataset.html
