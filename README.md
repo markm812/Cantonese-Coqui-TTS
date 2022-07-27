@@ -2,7 +2,9 @@
 
 Original Repo:
 https://github.com/coqui-ai/TTS
-
+## Important: 
+### This application only works in Linux environment
+### Use WSL/VM if you are using WindowsOS
 ## Install requirements
 ### Using Python3.8
 ```
