@@ -104,9 +104,12 @@ ap = AudioProcessor(**config.audio.to_dict())
 tokenizer, config = TTSTokenizer.init_from_config(config)
 
 # Split dataset for training and evaluation
+# Dataset formatter is specified here as we are using CommonVoice dataset
 train_samples, eval_samples = load_tts_samples(dataset_config, eval_split=True, formatter = common_voice)
 
 # Speak Manager for multi speaker training
+# Referencing different speaker with their ID
+# Useful in synthesizing speeches with targetted speaker's voice
 speaker_manager = SpeakerManager()
 speaker_manager.set_ids_from_data(train_samples + eval_samples, parse_key="speaker_name")
 config.num_speakers = speaker_manager.num_speakers
