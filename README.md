@@ -7,8 +7,8 @@ https://github.com/coqui-ai/TTS
 ### Use WSL/VM if you are on WindowsOS
 ## Install requirements
 ### Setup CUDA 10.1 (update 2) before installing requirements
-Follow the documentation by Nvidia: https://docs.nvidia.com/cuda/archive/10.1/
-For WSL:
+Follow the documentation by Nvidia: https://docs.nvidia.com/cuda/archive/10.1/  
+#### For WSL:
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
 sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -18,7 +18,7 @@ sudo cp /var/cuda-repo-wsl-ubuntu-11-7-local/cuda-*-keyring.gpg /usr/share/keyri
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
-For Ubuntu 18.04:
+#### For Ubuntu 18.04:
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
 sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
