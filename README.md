@@ -4,7 +4,7 @@ Original Repo:
 https://github.com/coqui-ai/TTS
 ## Important: 
 ### This application only works in Linux environment
-### Use WSL/VM if you are using WindowsOS
+### Use WSL/VM if you are on WindowsOS
 ## Install requirements
 ### Setup CUDA 10.1 (update 2) before installing requirements
 Follow the documentation by Nvidia: https://docs.nvidia.com/cuda/archive/10.1/
