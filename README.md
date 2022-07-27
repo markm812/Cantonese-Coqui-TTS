@@ -6,6 +6,7 @@ https://github.com/coqui-ai/TTS
 ### This application only works in Linux environment
 ### Use WSL/VM if you are using WindowsOS
 ## Install requirements
+### Setup CUDA environment before installing requirements
 ### Suggest using Python3.8
 ```
 pip install -e .[all]
