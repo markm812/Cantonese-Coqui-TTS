@@ -36,7 +36,7 @@ For more details please refer to: https://forums.developer.nvidia.com/t/notice-c
 ```
 pip install -e .[all]
 ```
-### If you have problem related to `espeak not found`, please do:
+### If you have problem related to `espeak not found` or `language yue not supported by espeak`, please do:
 ```
 sudo apt-get install espeak-ng
 ```
