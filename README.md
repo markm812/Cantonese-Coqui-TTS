@@ -46,7 +46,10 @@ sudo apt-get install espeak-ng
 ```
 python train_capacitron_t2.py
 ```
-
+#### If you have problem regarding `assert sample rate`, please take care of following:
+```
+Use librosa/pudub to resample your dataset to the same sample rate; same as your defined sameple rate in `audio_config` in your `train.py`
+```
 ### You can find more useful template inside recipes/, or refer to the original repo by CoquiAI
 ### More dataset formatter can be found in Cantonese-Coqui-TTS/TTS/tts/datasets/formatters.py 
 ### You may also define your own dataset formatter according to https://tts.readthedocs.io/en/latest/formatting_your_dataset.html
