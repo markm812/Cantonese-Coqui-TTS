@@ -36,6 +36,10 @@ For more details please refer to: https://forums.developer.nvidia.com/t/notice-c
 ```
 pip install -e .[all]
 ```
+### If you have problem related to `espeak not found`, please do:
+```
+sudo apt-get install espeak-ng
+```
 ## Run training (Capacitron_Tacotron2)
 
 ### With dataset from CommonVoice zh-HK
